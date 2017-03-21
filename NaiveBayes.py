@@ -2,14 +2,14 @@ import os
 from collections import Counter
 from sklearn.naive_bayes import GaussianNB
 
-os.chdir('c:\\Users\Massimo\Desktop\Temp\EmaNaiveBayes')
+os.chdir('~/Desktop/johtek/NaiveBayes')
 
 dangerous_words = ["click", "here", "the", "and"]
 
-train_set = []
+train = []
 target = []
-for f in os.listdir(".\TrainingSet"):
-	open_file = open(".\TrainingSet\\"+f, 'r', newline='\n')
+for f in os.listdir("./train"):
+	open_file = open("./train/"+f, 'r', newline='\n')
 	spam = open_file.readline()
 	words_list =[]
 	contents = open_file.readlines()
@@ -20,17 +20,17 @@ for f in os.listdir(".\TrainingSet"):
 	open_file.close()
 	count = Counter({'click': 0, 'here': 0, 'the': 0, 'and': 0})
 	count.update(words_list)
-	train_set.append(np.array(list(count.values())))
-	if spam == "YES":
-		target.append(2)
-	else:
+	train.append(np.array(list(count.values())))
+	if spam == "true":
 		target.append(1)
+	else:
+		target.append(2)
 
 #dummy file
-train_set.append(np.array([3,4,1,2]))
+train.append(np.array([3,4,1,2]))
 target.append(2)
 
 gnb = GaussianNB()
-gnb.fit(train_set, target)
+gnb.fit(train, target)
 print(gnb.predict([[3, 4, 2, 5]]))
 
