@@ -1,0 +1,47 @@
+FALSE
+
+Dear all,
+Everything is now ready for opening the course platform so that we can begin
+the course.
+
+*** VERY IMPORTANT: CAREFULLY READ THE TEXT BELOW BEFORE TAKING ACTION! ***
+
+Sign in at the MOOC platform and enroll to this course. The usual University
+accounts are NOT in use (this is an OPEN version of Moodle). Instead, you may
+use your University email address (preferable choice!) as a username. Also
+other email addresses are accepted as usernames for the MOOC platform.
+
+The address of the course platform is:
+https://mooc.helsinki.fi/course/view.php?id=52
+(it is currently not listed anywhere, it appears under "MOOC Demos" - subject
+to change)
+
+THE MOST IMPORTANT PART IS HERE, please pay attention:
+
+There is a general enrolment key "IODS-2017" that might be required when you
+enroll,
+BUT, more importantly, also a group key is required.
+
+There are two options, depending on your desired level of study:
+
+1) Doctoral/Master's level of studies: use group key "IODS-group1"
+2) Bachelor's level of studies: use group key "IODS-group2"
+
+You must choose either one! It affects the weekly peer-reviews and the final
+assignment.
+
+You will find (much) more details and instructions on the platform, when you
+get there.
+
+
+   * * *
+
+We will begin in the morning and give advice in order to get everyone started
+with R, RStudio, GitHub etc. The classes are not lectures, but more like
+interactive workshops.
+
+If you are going to attend the classes, please bring your own computer and be
+prepared to install software for it.
+
+See you!
+The teaching team: Kimmo, Tuomo, Emma, and Petteri
